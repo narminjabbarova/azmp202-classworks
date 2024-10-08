@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  border-radius: 200%;
+}
+
+hr{
+  border-color: aqua;
+}
+h2{
+  color: red;
+}

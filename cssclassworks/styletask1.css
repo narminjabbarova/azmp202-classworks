@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1{
+  color: blue;
+}
+
+.blok1{
+
+  border: 3px solid red;
+  background-color: lightgreen;
+}
+
+.blok2{
+
+  border: 3px solid red;
+  background-color: #ddaefa;
+}
+
+.blok3{
+
+  border: 3px solid red;
+  background-color: rgb(155, 55,128)
+}
+
+.blok4{
+
+  border: 3px solid red;
+  background-color: hsl(60, 22%, 50%)
+}
