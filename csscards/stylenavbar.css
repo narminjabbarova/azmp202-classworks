@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url(https://t3.ftcdn.net/jpg/03/39/06/02/360_F_339060225_w8ob8LjMJzPdEqD9UFxbE6ibcKx8dFrP.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cleanblog h1{
+  margin: 0 auto;
+}
+
+ul{
+  width: 40%;
+  display: flex;
+  margin-left: 1300px;
+}
+ul li{
+  color: white;
+  margin: 15px;
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  margin: 15px;
+  align-items: center;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.cleanblog {
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 300px;
+}
+h1{
+  color: white;
+  margin-top: 20px;
+}
