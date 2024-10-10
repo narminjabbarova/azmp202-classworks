@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.card{
+  width: 27%;
+ 
+  align-items: center;
+  background-color: rgb(203, 206, 228);
+  margin: 40px;
+  border-radius: 15px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  color: rgb(41, 41, 92);
+}
+.card .icon{
+  background-color: rgb(51, 51, 158);
+  width: 50px;
+  height: 50px;
+  margin:-30px auto;
+  border-radius: 10px;
+
+}
+.card .icon i{
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+  
+
+}
+
+p{
+  font-size: 27px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.boxes1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
