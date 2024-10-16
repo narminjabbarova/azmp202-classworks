@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.toptext{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.toptext h1 {
+  font-size: 32px;
+  font-weight: 70px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.toptext p {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+
+}
+
+.container{
+  background: #20484F;
+  width: 1200px;
+  padding: 80px;
+}
+
+.icons{
+  background-color: #DCF2ED;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  padding: 16px;
+  gap: 10px;
+}
+.icon{
+  color: black;
+  width: 24px;
+  height: 24px;
+  
+}
+
+.icon-bottom h4{
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.icon-bottom p{
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  line-height: 24px;
+}
+
