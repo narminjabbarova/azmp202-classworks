@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "grape strawberry watermelon watermelon"
+    "grayfruit grayfruit watermelon watermelon"
+    "grayfruit grayfruit watermelon watermelon"
+    "grayfruit grayfruit watermelon watermelon"
+    "fruit3 fruit3 pineapple pineapple"
+    "fruit3 fruit3 pineapple pineapple";
+}
+
+.grayfruit { grid-area: grayfruit; }
+
+.fruit3 { grid-area: fruit3; }
+
+.pineapple { grid-area: pineapple; }
+
+.watermelon { grid-area: watermelon; }
+
+.grape { grid-area: grape; }
+
+.strawberry { grid-area: strawberry; }
+
+.container > div{
+  background-color: blue;
+  padding: 2rem o;
+  display: grid;
+  justify-items: center;
+}
+
+.container{
+  gap: 20px;
+  padding: 50px 70px;
+  height: 800px;
+}
+
+
+.container .grayfruit{
+background-color: orange;
+}
+.container .strawberry{
+  background-color: red;
+}
+
+.container .fruit3{
+  background-color: orange;
+}
+
+.container .watermelon{
+  background-color: red;
+}
+
+.container .pineapple{
+  background-color: teal;
+}
