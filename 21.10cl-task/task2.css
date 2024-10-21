@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sectionf{
+  padding: 16rem 0;
+}
+
+.row i{
+  font-size: 70px;
+  color: rgba(var(--bs-primary-rgb))
+}
+
+.sectiong{
+  padding: 4rem 0;
+}
