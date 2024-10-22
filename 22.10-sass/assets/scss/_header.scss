@@ -1,0 +1,13 @@
+nav{
+  @include flex(center,center);
+  padding: 20px;
+  background-color: black;
+  justify-content: space-between;
+  ul{
+    display: flex;
+    gap: 10px;
+    a{
+      color: white;
+    }
+  }
+}

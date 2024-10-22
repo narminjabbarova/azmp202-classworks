@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+
+  .row{
+    display: flex;
+  
+  }
+  .col-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+      width: 100%;
+    }
+  }
+  .card{
+    padding: 30px;
+  }
+}
+
+#superior-text{
+  text-align: center;
+}
