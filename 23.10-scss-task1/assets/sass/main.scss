@@ -1,10 +1,11 @@
 @import"./base/reset";
+@import"./utils/variables";
 @import"./base/typography";
-@import"./components/buttons";
-@import"./layout/footer";
+@import"./utils/mixins";
 @import"./layout/grid";
+@import"./components/buttons";
 @import"./layout/header";
 @import"./pages/home";
-@import"./utils/mixins";
-@import"./utils/variables";
-  
+@import"./layout/footer";
+// Pages 
+@import "./pages/portfolio"

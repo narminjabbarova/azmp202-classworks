@@ -1,0 +1,40 @@
+#upper-footer{
+  background-color: $orange;
+  .container{
+    padding: 5%;
+
+    .banner{
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+  }
+
+  h2{
+    @extend %h2text;
+    padding-bottom: 4%;
+  }
+
+  p{
+    @extend %ptext;
+    padding-bottom: 6%;
+  }
+
+  .white-btn{
+    background-color: $white;
+    color: $black;
+    @extend %button;
+  }
+
+  .left-side{
+    width: 50%;
+  }
+
+  .right-side{
+    width: 50%;
+
+    img{
+      width: 100%;
+    }
+  }
+}

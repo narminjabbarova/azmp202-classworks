@@ -1,0 +1,65 @@
+footer{
+
+  .container{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    .menues{
+      display:flex;
+      column-gap: 180px;
+      .menu, .service{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        h5{
+          color: $orange;
+        }
+
+        ul{
+          color: $black;
+          gap: 12px;
+          display: flex;
+          flex-direction: column;
+
+          li{
+            a{
+              color: $black;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .logos{
+    display: flex;
+    gap: 15px;
+
+    i{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 48px;
+      background-color: $orange;
+      border-radius: 50%;
+    }
+  }
+
+  h4{
+    @extend %h4text;
+  }
+
+  .copyright{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    ul{
+      display: flex;
+      color: $black;
+      gap: 70px;
+    }
+  }
+}
