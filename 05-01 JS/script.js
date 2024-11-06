@@ -423,8 +423,8 @@ const products = [
 
 
 // #hamısının count dəyərinin 100'dən çox olub olmamasını yoxlayın (true/false)
-const value = products.every(element =>element.rating.count>100);
-console.log(value);
+// const value = products.every(element =>element.rating.count>100);
+// console.log(value);
 
 // #category'si "electronics" olanların qiymətini 50% endirin
 
