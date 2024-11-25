@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .accordion {
+    width: 300px;
+  }
+  
+  .question {
+    background-color: #00cccc;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left; 
+    transition: background-color 0.3s; 
+  }
+
+  .question:hover {
+    background-color: #0099aa; 
+  }
+  
+  .answer {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    display: none;
+    text-align: left;
+  }
+  
+  .answer.show{
+    display: block;
+  }
+
