@@ -3,17 +3,18 @@ import { endpoints } from '../../../Data/constants';
 import "../Home/index.css"
 import { useState, useEffect } from 'react';
 import getAllData from "../../../Data/index.js"
-
+import "../Home/index.css"
+import { BsFillHeartFill } from "react-icons/bs";
 const Home = () => {
 
   const [products, setProducts] = useState([]);
 
 const getProducts = async () => {
- 
+  
   try {
     const data = await getAllData(endpoints.products);
 
-    setProducts(data);
+    setProducts(data); 
   } catch (error) {
     console.log(error);
   }
@@ -26,9 +27,15 @@ useEffect(() => {
   return (
     <>
     <div className="App">
+      <div className="cards">
+
+
       {products.length> 0 && products.map((p)=>{
         return(
-            <div className="card" key={p.id}>
+          <div className="card" key={p.id}>
+            <div className="ic">
+            <BsFillHeartFill />
+            </div>
             <img src={p.image} alt="" width={100}/>
             <h1 >{p.title}</h1>
             <p>{p.price}</p>
@@ -37,6 +44,7 @@ useEffect(() => {
           </div>
         )
       })}
+      </div>
 
       {/* Header Section */}
       <header className="hero-section">
@@ -46,7 +54,7 @@ useEffect(() => {
           <button className="cta-button">Get Started</button>
         </div>
       </header>
-     
+      
 
       {/* Main Content Section */}
       <section className="main-content">
