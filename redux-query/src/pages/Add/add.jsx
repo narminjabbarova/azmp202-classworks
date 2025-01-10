@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { usePostNewCategoryMutation } from "../redux/services/categoriesApi"
+import { usePostNewCategoryMutation } from "../../Redux/Services/categoriesApi"; 
 import { useNavigate } from "react-router-dom";
 const AddCategory = () => {
 
